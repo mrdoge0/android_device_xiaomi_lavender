@@ -7,9 +7,6 @@
 
 include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
-# Assert
-TARGET_OTA_ASSERT_DEVICE := lavender
-
 # AVB
 BOARD_AVB_ENABLE := true
 BOARD_AVB_RECOVERY_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
@@ -44,9 +41,6 @@ TARGET_KERNEL_CONFIG := lavender_defconfig
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/framework_compatibility_matrix.xml
-
-# Releasetools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_lavender
 
 # WLAN MAC
 WLAN_MAC_SYMLINK := true
