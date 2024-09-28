@@ -44,6 +44,10 @@ BOARD_HAVE_IR := true
 # Device properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/properties/vendor.prop
 
+# Fingerprints
+PRODUCT_PACKAGES += \
+    com.fingerprints.extension@2.0.vendor
+
 # FM
 BOARD_HAVE_QCOM_FM := true
 
