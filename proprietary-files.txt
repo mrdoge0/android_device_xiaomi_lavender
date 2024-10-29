@@ -51,7 +51,6 @@ vendor/lib/libmegface.so|5c57bccfd37a84f3990e6982c193b018a20d5d39
 vendor/lib/libmibokeh_660.so|46afb40acdafe11cffba2ab77087d99cf864bf35
 vendor/lib/libmm-qcamera.so|f953ef7ce5a3b30f0fa69d6ffde1149272d58793
 vendor/lib/libmmjpeg.so|152b14e209e381deb1f58a4c734678bd11e6069a
--vendor/lib/libmmlib2d_interface.so|658fba4f9a81f024cf68874488d6f3f7144323ff
 vendor/lib/libmmqjpeg_codec.so|f05531bc53f16d8bfe5e7cf3fa00fd5b8b40fde2
 vendor/lib/libmmqjpegdma.so|98e8a82e71c3bd630ff2ab231f19571967231f59
 vendor/lib/libmpbase.so|25b49173aac8551cdebd4fbfccdbcb09e0b8469d
